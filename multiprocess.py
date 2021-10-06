@@ -19,6 +19,7 @@ with open('order.txt', 'r') as f:
     lines = [line.strip('\n') for line in lines]
 
 num_processes = num_cpu if num_cpu < len(lines) else len(lines)
+print('num_processes: {}'.format(num_processes))
 
 processes = []
 for i in range(num_processes):
