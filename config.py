@@ -1,1 +1,1 @@
-MAX_IMG = 50
+MAX_IMG = 100
