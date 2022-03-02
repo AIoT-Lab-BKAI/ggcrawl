@@ -1,11 +1,11 @@
 import os
 import shutil
 
-with open('draft.txt', 'r', encoding='utf-8') as f:
+with open('order.txt', 'r', encoding='utf-8') as f:
     lines = f.readlines()
     lines = [line.strip('\n') for line in lines]
 
-dest_folder = 'before_crafting_imgs_gg'
+dest_folder = 'merge_results'
 if not os.path.exists(dest_folder):
     os.mkdir(dest_folder)
 
